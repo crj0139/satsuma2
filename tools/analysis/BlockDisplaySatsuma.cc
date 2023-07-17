@@ -178,9 +178,9 @@ int main( int argc, char** argv )
     }
   }
   cout << "chromosomes\t" << n << endl;
-  for (i=0; i<target.isize(); i++) {
+  for (i = 0; i < target.isize(); i++) {
     if (target[i].isize() > min_scaff) {
-      cout << target.NameClean(i) << "\t" << target[i].isize()/scale << endl;
+      cout << target.NameClean(i) << "\t" << target[i].isize() << endl;
     }
   }
   cout << endl;
@@ -193,9 +193,9 @@ int main( int argc, char** argv )
     }
   }
   cout << "chromosomes\t" << n << endl;
-  for (i=0; i<query.isize(); i++) {
+  for (i = 0; i < query.isize(); i++) {
     if (query[i].isize() > min_scaff) {
-      cout << query.NameClean(i) << "Q\t" << query[i].isize()/scale << endl;
+      cout << query.NameClean(i) << "Q\t" << query[i].isize() << endl;
     }
   }
   cout << endl;
