@@ -1,0 +1,10 @@
+__pycache__/
+bin/ChainMatches
+bin/KMatch
+bin/MatchDump
+bin/MatchesByFeature
+bin/MergeXCorrMatches
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
