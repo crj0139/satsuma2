@@ -33,10 +33,10 @@ public:
     m_query = query;
     m_ori = ori;
     m_ident = ident;
-    m_startTarget = startTarget / scale;
-    m_startQuery = startQuery / scale;
-    m_endTarget = endTarget / scale;
-    m_endQuery = endQuery / scale;    
+    m_startTarget = (startTarget * 10) / scale;
+    m_startQuery = (startQuery * 10) / scale;
+    m_endTarget = (endTarget * 10) / scale;
+    m_endQuery = (endQuery * 10) / scale;    
   }
 
 

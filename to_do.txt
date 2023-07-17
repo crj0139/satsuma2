@@ -1,0 +1,3 @@
+-add reformat.sh operation
+-fix missing last digit of coordinates in mizbee file
+-add two tabs and LF right after coordinate lines without headers?
