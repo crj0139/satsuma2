@@ -30,8 +30,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -lpthread -std=c++14 -O3 -w")
 to:
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -lpthread -pthread -std=c++14 -O3 -w")
 
-We are experimenting with providing pre-compiled binaries which can be downloaded from the releases section. Once downloaded, you should be able to run these directly.
-
+It is recommended to not use conda due to it causing GLIBC errors; the system compiler seems to work best.
 ## Quick start
 
 1. Set the SATSUMA2_PATH environment variable to point to the directory containing the binaries.
