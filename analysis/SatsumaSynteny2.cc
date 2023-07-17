@@ -13,6 +13,7 @@
 #include "MatchDynProg.h"
 #include "../util/SysTime.h"
 #include "WorkQueue.h"
+#include <memory>
 #define POSITION_CHR_CNST 10000000000L
 
 class SyntenyInterpolator
