@@ -1,3 +1,5 @@
 -add reformat.sh operation
--fix missing last digit of coordinates in mizbee file
+-fix switching of microsyn and chrompaint output names
+-fix -dump_cycle_matches output having inconsistent names with normal output
 -add two tabs and LF right after coordinate lines without headers?
+-fix -transpose requiring switch and reversing -t and -q, instead of just switch, with BlockDisplaySatsuma
