@@ -1,3 +1,4 @@
+#All documentation below from original repository (https://github.com/bioinfologics/satsuma2)
 # Satsuma2
 
 Satsuma2 is an optimised version of Satsuma, a tool to reliably align large and complex DNA sequences providing maximum sensitivity (to find all there is to find), specificity (to only find real homology) and speed (to accomodate the billions of base pairs in vertebrate genomes). Satsuma2 adresses these issues through three novel strategies:
